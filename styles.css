@@ -199,3 +199,30 @@ footer a:hover {
     font-size: 0.9rem;
     opacity: 0.9;
 }
+
+
+.company-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+#experience {
+    margin-top: 2rem;
+}
+
+#experience h2 {
+    color: #444;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+#experience ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+#experience ul li {
+    margin-bottom: 10px;
+}
