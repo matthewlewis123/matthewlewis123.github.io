@@ -105,3 +105,19 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+@media (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
