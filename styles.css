@@ -69,9 +69,30 @@ main {
 
 
 .section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
     text-decoration: underline;
 }
 
+.section-heading .institution {
+    text-decoration: underline;
+}
+
+.section-heading .date {
+    text-decoration: none;
+}
+
+.institution {
+    flex: 1;
+}
+
+.date {
+    text-align: right;
+    white-space: nowrap;
+    margin-left: 1em;
+}
 
 h2 {
     color: #444;
