@@ -226,3 +226,16 @@ footer a:hover {
 #experience ul li {
     margin-bottom: 10px;
 }
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-container .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
